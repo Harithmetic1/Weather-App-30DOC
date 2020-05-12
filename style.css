@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Ubuntu:ital@1&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(133, 133, 197);
+}
+
+.result{
+    width: 300px;
+    height: 350px;
+    background: #e7e7e7;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8%;
+    margin-top: 20%;
+    text-align: center;
+    padding: 10px 10px;
+}
+#nameC{
+    font-family: 'DM Mono', monospace;
+}
+#desc{
+    font-family: 'DM Mono', monospace;
+}
+#temp{
+    font-family: 'Orbitron', sans-serif;
+}
+.cityName{
+    justify-self: center;
+    margin-left: 15%;
+    margin-top: 15%;
+    color: white;
+}
+#icon{
+    font-size: 40px;
+}
+#submit{
+    background-color: #e7e7e7; /* Green */
+  border: none;
+  color: rgb(7, 7, 7);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+input[type=text] {
+    color: white;
+    border: none;
+    border-bottom: 2px solid rgb(253, 251, 251);
+    outline: none;
+    background-color: rgb(133, 133, 197);
+    padding: 10px 10px;
+  }
+  @media only screen and (min-width: 700px) {
+   .result{
+       margin-left: 30%;
+   }
+   .cityName{
+       margin-left: 32%;
+   }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    .result{
+        margin-left: 30%;
+    }
+    .cityName{
+        margin-left: 32%;
+    }
+   }
+   @media only screen and (min-width: 1200px) {
+    .result{
+        margin-left: 35%;
+        margin-top: 5%;
+    }
+    .cityName{
+        margin-left: 35%;
+    }
+   }
