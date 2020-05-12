@@ -9,7 +9,7 @@ function clear(){
     document.getElementById('icon').innerHTML = '';
 }
 button.addEventListener('click', function(){
-    fetch('http://api.openweathermap.org/data/2.5/weather?q='+ cityName.value +'&appid=28ed6d1ee9dea59d2aee761246620667')
+    fetch('https://api.openweathermap.org/data/2.5/weather?q='+ cityName.value +'&appid=28ed6d1ee9dea59d2aee761246620667')
     .then(response => response.json())
     .then(data => {
         let nameValue = data['name']
@@ -22,7 +22,7 @@ var div = document.getElementById('icon');
 img.onload = function() {
   div.appendChild(img);
 };
-img.src = 'http://openweathermap.org/img/wn/'+something+'@2x.png'
+img.src = 'https://openweathermap.org/img/wn/'+something+'@2x.png'
 
 
         city.innerHTML = nameValue;
