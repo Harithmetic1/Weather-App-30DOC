@@ -46,7 +46,7 @@ img.src = 'https://openweathermap.org/img/wn/'+something+'@2x.png'
         // }
     })
 
-    // .catch(err=> alert('Wrong city name!'));
+    .catch(err=> alert('Wrong city name!'));
 
 })
 
